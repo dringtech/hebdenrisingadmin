@@ -1,0 +1,41 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+#map {
+  height: 400px;
+}
+#map img {
+  margin: 0;
+  max-width: 739px;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.legend {
+  background: white;
+  border-radius: 5px;
+  padding: 6px 10px 6px 6px;
+  margin-bottom: 25px !important;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+.legend h1 {
+  font-size: 100%;
+  margin: 0;
+}
+.legend .legend-items {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.legend .legend-items li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.legend svg {
+  vertical-align: bottom;
+}
